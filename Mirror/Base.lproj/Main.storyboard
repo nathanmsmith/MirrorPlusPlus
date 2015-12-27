@@ -24,8 +24,8 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiD-hY-k3i">
-                                <rect key="frame" x="507" y="485" width="62" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiD-hY-k3i">
+                                <rect key="frame" x="545" y="562" width="35" height="30"/>
                                 <state key="normal" title="Flip"/>
                                 <connections>
                                     <action selector="flipOrientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d40-sH-e6G"/>
@@ -35,7 +35,8 @@
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="ncN-QZ-HFx" firstAttribute="centerX" secondItem="CwI-Fg-XEM" secondAttribute="centerX" id="1iS-a1-5fw"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="RiD-hY-k3i" secondAttribute="trailing" constant="11" id="Hbi-w1-hJf"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RiD-hY-k3i" secondAttribute="trailing" id="4fr-Ps-aHz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RiD-hY-k3i" secondAttribute="bottom" constant="8" id="ltx-uI-rM9"/>
                         </constraints>
                     </view>
                     <connections>

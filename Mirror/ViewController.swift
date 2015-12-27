@@ -11,6 +11,8 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    let ANIMATION_TIME:NSTimeInterval = 3.0
+    
     let session = AVCaptureSession()
     var previewLayer: AVCaptureVideoPreviewLayer!
 
@@ -24,11 +26,20 @@ class ViewController: UIViewController {
         let mirror = CATransform3DMakeScale(1, 1, 1)
         
         if CATransform3DEqualToTransform(previewLayer.transform, mirror) {
+            mirrorOrientation.alpha = 1
             previewLayer.transform = demirror
-            mirrorOrientation.text = "De-mirrored"
+            UIView.animateWithDuration(ANIMATION_TIME, animations: {
+                self.mirrorOrientation.text = "De-mirrored"
+                self.mirrorOrientation.alpha = 0
+            })
         } else {
+            mirrorOrientation.alpha = 1
             previewLayer.transform = mirror
-            mirrorOrientation.text = "Mirrored"
+            UIView.animateWithDuration(ANIMATION_TIME, animations: {
+                self.mirrorOrientation.text = "Mirrored"
+                self.mirrorOrientation.alpha = 0
+            })
+
         }
     }
     
@@ -68,6 +79,11 @@ class ViewController: UIViewController {
         self.view.layer.insertSublayer(previewLayer, atIndex: 0)
         previewLayer.frame = self.view.layer.frame
         session.startRunning()
+        
+        UIView.animateWithDuration(ANIMATION_TIME, animations: {
+            self.mirrorOrientation.text = "Mirrored"
+            self.mirrorOrientation.alpha = 0
+        })
     }
     
     override func prefersStatusBarHidden() -> Bool {
