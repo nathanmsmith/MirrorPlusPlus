@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D8B68A171C2F640100B5FB24 /* Mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B68A171C2F640100B5FB24 /* Mirror++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mirror++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B68A1A1C2F640200B5FB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B68A1C1C2F640200B5FB24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8B68A1F1C2F640200B5FB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D8B68A211C2F640200B5FB24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B68A241C2F640200B5FB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B68A261C2F640200B5FB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8B68A2B1C2F640200B5FB24 /* MirrorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B68A2B1C2F640200B5FB24 /* Mirror++.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mirror++.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B68A2F1C2F640200B5FB24 /* MirrorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorTests.swift; sourceTree = "<group>"; };
 		D8B68A311C2F640200B5FB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8B68A361C2F640200B5FB24 /* MirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B68A361C2F640200B5FB24 /* Mirror++.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mirror++.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B68A3A1C2F640200B5FB24 /* MirrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorUITests.swift; sourceTree = "<group>"; };
 		D8B68A3C1C2F640200B5FB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		D8B68A181C2F640100B5FB24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8B68A171C2F640100B5FB24 /* Mirror.app */,
-				D8B68A2B1C2F640200B5FB24 /* MirrorTests.xctest */,
-				D8B68A361C2F640200B5FB24 /* MirrorUITests.xctest */,
+				D8B68A171C2F640100B5FB24 /* Mirror++.app */,
+				D8B68A2B1C2F640200B5FB24 /* Mirror++.xctest */,
+				D8B68A361C2F640200B5FB24 /* Mirror++.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D8B68A161C2F640100B5FB24 /* Mirror */ = {
+		D8B68A161C2F640100B5FB24 /* Mirror++ */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8B68A3F1C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "Mirror" */;
+			buildConfigurationList = D8B68A3F1C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "Mirror++" */;
 			buildPhases = (
 				D8B68A131C2F640100B5FB24 /* Sources */,
 				D8B68A141C2F640100B5FB24 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = Mirror;
+			name = "Mirror++";
 			productName = Mirror;
-			productReference = D8B68A171C2F640100B5FB24 /* Mirror.app */;
+			productReference = D8B68A171C2F640100B5FB24 /* Mirror++.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D8B68A2A1C2F640200B5FB24 /* MirrorTests */ = {
+		D8B68A2A1C2F640200B5FB24 /* Mirror++Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8B68A421C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "MirrorTests" */;
+			buildConfigurationList = D8B68A421C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "Mirror++Tests" */;
 			buildPhases = (
 				D8B68A271C2F640200B5FB24 /* Sources */,
 				D8B68A281C2F640200B5FB24 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				D8B68A2D1C2F640200B5FB24 /* PBXTargetDependency */,
 			);
-			name = MirrorTests;
+			name = "Mirror++Tests";
 			productName = MirrorTests;
-			productReference = D8B68A2B1C2F640200B5FB24 /* MirrorTests.xctest */;
+			productReference = D8B68A2B1C2F640200B5FB24 /* Mirror++.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D8B68A351C2F640200B5FB24 /* MirrorUITests */ = {
+		D8B68A351C2F640200B5FB24 /* Mirror++UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D8B68A451C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "MirrorUITests" */;
+			buildConfigurationList = D8B68A451C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "Mirror++UITests" */;
 			buildPhases = (
 				D8B68A321C2F640200B5FB24 /* Sources */,
 				D8B68A331C2F640200B5FB24 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				D8B68A381C2F640200B5FB24 /* PBXTargetDependency */,
 			);
-			name = MirrorUITests;
+			name = "Mirror++UITests";
 			productName = MirrorUITests;
-			productReference = D8B68A361C2F640200B5FB24 /* MirrorUITests.xctest */;
+			productReference = D8B68A361C2F640200B5FB24 /* Mirror++.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -217,9 +217,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D8B68A161C2F640100B5FB24 /* Mirror */,
-				D8B68A2A1C2F640200B5FB24 /* MirrorTests */,
-				D8B68A351C2F640200B5FB24 /* MirrorUITests */,
+				D8B68A161C2F640100B5FB24 /* Mirror++ */,
+				D8B68A2A1C2F640200B5FB24 /* Mirror++Tests */,
+				D8B68A351C2F640200B5FB24 /* Mirror++UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -282,12 +282,12 @@
 /* Begin PBXTargetDependency section */
 		D8B68A2D1C2F640200B5FB24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8B68A161C2F640100B5FB24 /* Mirror */;
+			target = D8B68A161C2F640100B5FB24 /* Mirror++ */;
 			targetProxy = D8B68A2C1C2F640200B5FB24 /* PBXContainerItemProxy */;
 		};
 		D8B68A381C2F640200B5FB24 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D8B68A161C2F640100B5FB24 /* Mirror */;
+			target = D8B68A161C2F640100B5FB24 /* Mirror++ */;
 			targetProxy = D8B68A371C2F640200B5FB24 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -400,7 +400,7 @@
 				INFOPLIST_FILE = Mirror/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smithindustries.Mirror;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mirror++";
 			};
 			name = Debug;
 		};
@@ -411,7 +411,7 @@
 				INFOPLIST_FILE = Mirror/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smithindustries.Mirror;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mirror++";
 			};
 			name = Release;
 		};
@@ -422,8 +422,8 @@
 				INFOPLIST_FILE = MirrorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smithindustries.MirrorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mirror.app/Mirror";
+				PRODUCT_NAME = "Mirror++";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mirror++.app/Mirror++";
 			};
 			name = Debug;
 		};
@@ -434,8 +434,8 @@
 				INFOPLIST_FILE = MirrorTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smithindustries.MirrorTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mirror.app/Mirror";
+				PRODUCT_NAME = "Mirror++";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mirror++.app/Mirror++";
 			};
 			name = Release;
 		};
@@ -445,7 +445,7 @@
 				INFOPLIST_FILE = MirrorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smithindustries.MirrorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mirror++";
 				TEST_TARGET_NAME = Mirror;
 				USES_XCTRUNNER = YES;
 			};
@@ -457,7 +457,7 @@
 				INFOPLIST_FILE = MirrorUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smithindustries.MirrorUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mirror++";
 				TEST_TARGET_NAME = Mirror;
 				USES_XCTRUNNER = YES;
 			};
@@ -475,7 +475,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8B68A3F1C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "Mirror" */ = {
+		D8B68A3F1C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "Mirror++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8B68A401C2F640200B5FB24 /* Debug */,
@@ -484,7 +484,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8B68A421C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "MirrorTests" */ = {
+		D8B68A421C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "Mirror++Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8B68A431C2F640200B5FB24 /* Debug */,
@@ -493,7 +493,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D8B68A451C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "MirrorUITests" */ = {
+		D8B68A451C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "Mirror++UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8B68A461C2F640200B5FB24 /* Debug */,
