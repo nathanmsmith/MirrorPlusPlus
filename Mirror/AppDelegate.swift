@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Mirror
+//  Mirror++
 //
 //  Created by Nathan Smith on 12/26/15.
 //  Copyright © 2015 Smith Industries. All rights reserved.
