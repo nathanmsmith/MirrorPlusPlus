@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mirror/ViewController.swift"
+            timestampString = "472879016.247994"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.captureDevice.getter : Swift.Optional&lt;__ObjC.AVCaptureDevice&gt;"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472871836.143645"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.captureDevice.setter : Swift.Optional&lt;__ObjC.AVCaptureDevice&gt;"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472871836.144645"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.captureDevice.materializeForSet : Swift.Optional&lt;__ObjC.AVCaptureDevice&gt;"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472871836.144754"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.init (Mirror.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Mirror.ViewController"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472871836.144834"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.init (Mirror.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Mirror.ViewController&gt;"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472871836.144918"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mirror/AVCamPreviewView.swift"
+            timestampString = "472875792.189954"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "AVCamPreviewView"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mirror/ViewController.swift"
+            timestampString = "472878382.147894"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Mirror/ViewController.swift"
+            timestampString = "472879809.51781"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "flipOrientation(_:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.captureDevice.getter : Swift.Optional&lt;__ObjC.AVCaptureDevice&gt;"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472879809.544502"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.captureDevice.setter : Swift.Optional&lt;__ObjC.AVCaptureDevice&gt;"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472879809.544837"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.captureDevice.materializeForSet : Swift.Optional&lt;__ObjC.AVCaptureDevice&gt;"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472879809.545011"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.init (Mirror.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; Mirror.ViewController"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472879809.545169"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Mirror.ViewController.init (Mirror.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Mirror.ViewController&gt;"
+                  moduleName = "Mirror"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nathan/Developer/Mirror/Mirror/ViewController.swift"
+                  timestampString = "472879809.54533"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

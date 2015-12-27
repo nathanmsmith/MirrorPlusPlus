@@ -12,8 +12,25 @@ import AVFoundation
 class ViewController: UIViewController {
     
     let session = AVCaptureSession()
+    var previewLayer: AVCaptureVideoPreviewLayer!
+
     
-    @IBOutlet weak var previewView: AVCamPreviewView!
+    //@IBOutlet weak var previewView: AVCamPreviewView!
+    @IBOutlet weak var mirrorOrientation: UILabel!
+    
+    @IBAction func flipOrientation(sender: UIButton) {
+        
+        let demirror = CATransform3DMakeScale(-1, 1, 1)
+        let mirror = CATransform3DMakeScale(1, 1, 1)
+        
+        if CATransform3DEqualToTransform(previewLayer.transform, mirror) {
+            previewLayer.transform = demirror
+            mirrorOrientation.text = "De-mirrored"
+        } else {
+            previewLayer.transform = mirror
+            mirrorOrientation.text = "Mirrored"
+        }
+    }
     
     // If we find a device we'll store it here for later use
     var captureDevice: AVCaptureDevice?
@@ -47,7 +64,14 @@ class ViewController: UIViewController {
             print("error: \(error)")
         }
         
-        previewView.session = session
+        previewLayer = AVCaptureVideoPreviewLayer(session: session)
+        self.view.layer.insertSublayer(previewLayer, atIndex: 0)
+        previewLayer.frame = self.view.layer.frame
         session.startRunning()
     }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
+
 }

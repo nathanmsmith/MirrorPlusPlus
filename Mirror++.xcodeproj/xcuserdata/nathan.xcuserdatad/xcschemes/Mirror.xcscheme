@@ -17,7 +17,7 @@
                BlueprintIdentifier = "D8B68A161C2F640100B5FB24"
                BuildableName = "Mirror.app"
                BlueprintName = "Mirror"
-               ReferencedContainer = "container:Mirror.xcodeproj">
+               ReferencedContainer = "container:Mirror++.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "D8B68A2A1C2F640200B5FB24"
                BuildableName = "MirrorTests.xctest"
                BlueprintName = "MirrorTests"
-               ReferencedContainer = "container:Mirror.xcodeproj">
+               ReferencedContainer = "container:Mirror++.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "D8B68A351C2F640200B5FB24"
                BuildableName = "MirrorUITests.xctest"
                BlueprintName = "MirrorUITests"
-               ReferencedContainer = "container:Mirror.xcodeproj">
+               ReferencedContainer = "container:Mirror++.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "D8B68A161C2F640100B5FB24"
             BuildableName = "Mirror.app"
             BlueprintName = "Mirror"
-            ReferencedContainer = "container:Mirror.xcodeproj">
+            ReferencedContainer = "container:Mirror++.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "D8B68A161C2F640100B5FB24"
             BuildableName = "Mirror.app"
             BlueprintName = "Mirror"
-            ReferencedContainer = "container:Mirror.xcodeproj">
+            ReferencedContainer = "container:Mirror++.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "D8B68A161C2F640100B5FB24"
             BuildableName = "Mirror.app"
             BlueprintName = "Mirror"
-            ReferencedContainer = "container:Mirror.xcodeproj">
+            ReferencedContainer = "container:Mirror++.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

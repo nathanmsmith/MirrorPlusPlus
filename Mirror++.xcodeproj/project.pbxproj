@@ -14,7 +14,6 @@
 		D8B68A251C2F640200B5FB24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B68A231C2F640200B5FB24 /* LaunchScreen.storyboard */; };
 		D8B68A301C2F640200B5FB24 /* MirrorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B68A2F1C2F640200B5FB24 /* MirrorTests.swift */; };
 		D8B68A3B1C2F640200B5FB24 /* MirrorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B68A3A1C2F640200B5FB24 /* MirrorUITests.swift */; };
-		D8B68A491C2F6E0900B5FB24 /* AVCamPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B68A481C2F6E0900B5FB24 /* AVCamPreviewView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		D8B68A361C2F640200B5FB24 /* MirrorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MirrorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B68A3A1C2F640200B5FB24 /* MirrorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MirrorUITests.swift; sourceTree = "<group>"; };
 		D8B68A3C1C2F640200B5FB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8B68A481C2F6E0900B5FB24 /* AVCamPreviewView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AVCamPreviewView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				D8B68A1A1C2F640200B5FB24 /* AppDelegate.swift */,
-				D8B68A481C2F6E0900B5FB24 /* AVCamPreviewView.swift */,
 				D8B68A1C1C2F640200B5FB24 /* ViewController.swift */,
 				D8B68A1E1C2F640200B5FB24 /* Main.storyboard */,
 				D8B68A211C2F640200B5FB24 /* Assets.xcassets */,
@@ -207,7 +204,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D8B68A121C2F640100B5FB24 /* Build configuration list for PBXProject "Mirror" */;
+			buildConfigurationList = D8B68A121C2F640100B5FB24 /* Build configuration list for PBXProject "Mirror++" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -260,7 +257,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8B68A1D1C2F640200B5FB24 /* ViewController.swift in Sources */,
-				D8B68A491C2F6E0900B5FB24 /* AVCamPreviewView.swift in Sources */,
 				D8B68A1B1C2F640200B5FB24 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,7 +466,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D8B68A121C2F640100B5FB24 /* Build configuration list for PBXProject "Mirror" */ = {
+		D8B68A121C2F640100B5FB24 /* Build configuration list for PBXProject "Mirror++" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D8B68A3D1C2F640200B5FB24 /* Debug */,
@@ -486,6 +482,7 @@
 				D8B68A411C2F640200B5FB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8B68A421C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "MirrorTests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +491,7 @@
 				D8B68A441C2F640200B5FB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D8B68A451C2F640200B5FB24 /* Build configuration list for PBXNativeTarget "MirrorUITests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +500,7 @@
 				D8B68A471C2F640200B5FB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,25 +18,33 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OSe-v5-JJc" customClass="AVCamPreviewView" customModule="Mirror" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Mirrored" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncN-QZ-HFx">
+                                <rect key="frame" x="239" y="474" width="123" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiD-hY-k3i">
+                                <rect key="frame" x="507" y="485" width="62" height="30"/>
+                                <state key="normal" title="Flip"/>
+                                <connections>
+                                    <action selector="flipOrientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d40-sH-e6G"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="OSe-v5-JJc" firstAttribute="leading" secondItem="CwI-Fg-XEM" secondAttribute="leading" id="Ahw-DM-hVV"/>
-                            <constraint firstItem="OSe-v5-JJc" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="czi-2P-4ul"/>
-                            <constraint firstAttribute="trailing" secondItem="OSe-v5-JJc" secondAttribute="trailing" id="inb-aF-fhw"/>
-                            <constraint firstItem="OSe-v5-JJc" firstAttribute="top" secondItem="CwI-Fg-XEM" secondAttribute="top" id="kGl-eH-mxs"/>
+                            <constraint firstItem="ncN-QZ-HFx" firstAttribute="centerX" secondItem="CwI-Fg-XEM" secondAttribute="centerX" id="1iS-a1-5fw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RiD-hY-k3i" secondAttribute="trailing" constant="11" id="Hbi-w1-hJf"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="previewView" destination="OSe-v5-JJc" id="Tz1-Sm-i1X"/>
+                        <outlet property="mirrorOrientation" destination="ncN-QZ-HFx" id="sLI-Dq-HMJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="755" y="534"/>
         </scene>
     </scenes>
 </document>
