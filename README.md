@@ -1,2 +1,2 @@
 # MirrorPlusPlus
-A minimalist, open source mirror app for iPhone
+A minimalist, open source mirror app for iPhone.
