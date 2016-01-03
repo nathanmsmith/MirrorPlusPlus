@@ -34,7 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D8B68A171C2F640100B5FB24 /* Mirror++.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mirror++.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8B68A171C2F640100B5FB24 /* Mirror.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mirror.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8B68A1A1C2F640200B5FB24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8B68A1C1C2F640200B5FB24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D8B68A1F1C2F640200B5FB24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -87,7 +87,7 @@
 		D8B68A181C2F640100B5FB24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D8B68A171C2F640100B5FB24 /* Mirror++.app */,
+				D8B68A171C2F640100B5FB24 /* Mirror.app */,
 				D8B68A2B1C2F640200B5FB24 /* Mirror++.xctest */,
 				D8B68A361C2F640200B5FB24 /* Mirror++.xctest */,
 			);
@@ -142,7 +142,7 @@
 			);
 			name = "Mirror++";
 			productName = Mirror;
-			productReference = D8B68A171C2F640100B5FB24 /* Mirror++.app */;
+			productReference = D8B68A171C2F640100B5FB24 /* Mirror.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D8B68A2A1C2F640200B5FB24 /* Mirror++Tests */ = {
@@ -400,7 +400,7 @@
 				INFOPLIST_FILE = Mirror/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smithindustries.Mirror;
-				PRODUCT_NAME = "Mirror++";
+				PRODUCT_NAME = Mirror;
 			};
 			name = Debug;
 		};
@@ -411,7 +411,7 @@
 				INFOPLIST_FILE = Mirror/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = smithindustries.Mirror;
-				PRODUCT_NAME = "Mirror++";
+				PRODUCT_NAME = Mirror;
 			};
 			name = Release;
 		};

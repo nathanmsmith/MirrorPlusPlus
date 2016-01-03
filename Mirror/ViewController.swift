@@ -77,8 +77,18 @@ class ViewController: UIViewController {
     }
     
     override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        let time:NSTimeInterval = 0.3
+        
         for subview in self.viewIfLoaded!.subviews {
-            subview.hidden = !subview.hidden
+            if subview.alpha == 0 {
+                UIView.animateWithDuration(time, delay: 0, options: UIViewAnimationOptions.CurveEaseOut, animations: {
+                    subview.alpha = 1
+                    }, completion: nil)
+            } else {
+                UIView.animateWithDuration(time, delay: 0, options: UIViewAnimationOptions.CurveEaseIn, animations: {
+                    subview.alpha = 0
+                    }, completion: nil)
+            }
         }
     }
     
