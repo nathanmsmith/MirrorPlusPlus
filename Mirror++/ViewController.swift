@@ -13,27 +13,39 @@ class ViewController: UIViewController {
     
     let session = AVCaptureSession()
     var previewLayer: AVCaptureVideoPreviewLayer!
+    
+    let demirror = CATransform3DMakeScale(-1, 1, 1)
+    let mirror = CATransform3DMakeScale(1, 1, 1)
 
     
     //@IBOutlet weak var previewView: AVCamPreviewView!
-    @IBOutlet weak var mirrorOrientation: UILabel!
-    
-    @IBOutlet weak var flipButton: UIButton!
+    @IBOutlet weak var mirrorOrientationLabel: UILabel!
     
     @IBAction func flipOrientation(sender: UIButton) {
-        
-        let demirror = CATransform3DMakeScale(-1, 1, 1)
-        let mirror = CATransform3DMakeScale(1, 1, 1)
-        
-        if CATransform3DEqualToTransform(previewLayer.transform, mirror) {
-            //De-Mirror
-            flipButton.selected = true
+        if isMirrored() {
             previewLayer.transform = demirror
         } else {
-            //Mirror
-            flipButton.selected = false
             previewLayer.transform = mirror
         }
+        displayOrientation()
+    }
+    
+    func isMirrored() -> Bool {
+        if CATransform3DEqualToTransform(previewLayer.transform, mirror) {
+            return true
+        } else {
+            return false
+        }
+    }
+    
+    func displayOrientation() {
+        let text = isMirrored() ? "Mirrored" : "De-mirrored"
+        
+        mirrorOrientationLabel.alpha = 1
+        UIView.animateWithDuration(3.0, animations: {
+            self.mirrorOrientationLabel.text = text
+            self.mirrorOrientationLabel.alpha = 0
+        })
     }
     
     // If we find a device we'll store it here for later use
@@ -41,6 +53,13 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        /*NSNotificationCenter.defaultCenter().addObserver(
+            self,
+            selector: "displayOrientation:",
+            name: UIApplicationDidBecomeActiveNotification,
+            object: nil)*/
+        
+        print("loaded")
         
         session.sessionPreset = AVCaptureSessionPresetHigh
         let devices = AVCaptureDevice.devices()
@@ -73,13 +92,7 @@ class ViewController: UIViewController {
         previewLayer.frame = self.view.layer.frame
         session.startRunning()
         
-
-    }
-    
-    override func touchesEnded(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        for subview in self.viewIfLoaded!.subviews {
-            subview.hidden = !subview.hidden
-        }
+        displayOrientation()
     }
     
     override func prefersStatusBarHidden() -> Bool {

@@ -18,10 +18,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiD-hY-k3i">
-                                <rect key="frame" x="553" y="557" width="35" height="35"/>
-                                <state key="normal" image="Flip Button (Mirrored)"/>
-                                <state key="selected" image="Flip Button (De-Mirrored)"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Mirrored" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ncN-QZ-HFx">
+                                <rect key="frame" x="239" y="474" width="123" height="51"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="29"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiD-hY-k3i">
+                                <rect key="frame" x="554" y="557" width="35" height="35"/>
+                                <state key="normal" image="Image"/>
                                 <connections>
                                     <action selector="flipOrientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d40-sH-e6G"/>
                                 </connections>
@@ -29,12 +34,13 @@
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RiD-hY-k3i" secondAttribute="bottom" constant="8" id="1R0-gK-Qnr"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="RiD-hY-k3i" secondAttribute="trailing" constant="-8" id="xs7-B3-XR0"/>
+                            <constraint firstItem="ncN-QZ-HFx" firstAttribute="centerX" secondItem="CwI-Fg-XEM" secondAttribute="centerX" id="1iS-a1-5fw"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RiD-hY-k3i" secondAttribute="trailing" constant="-9" id="2xC-WP-Tta"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RiD-hY-k3i" secondAttribute="bottom" constant="8" id="HGL-D0-w0D"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="flipButton" destination="RiD-hY-k3i" id="PS0-Qf-AI7"/>
+                        <outlet property="mirrorOrientationLabel" destination="ncN-QZ-HFx" id="71p-cs-xOa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -43,7 +49,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Flip Button (De-Mirrored)" width="35" height="35"/>
-        <image name="Flip Button (Mirrored)" width="35" height="35"/>
+        <image name="Image" width="13" height="13"/>
     </resources>
 </document>
