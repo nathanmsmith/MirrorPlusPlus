@@ -40,6 +40,8 @@ class AboutViewController: UITableViewController, MFMailComposeViewControllerDel
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
+        tableView.deselectRow(at: indexPath, animated: true)
+        
         var url:URL?
         
         print("Row Selected!")
