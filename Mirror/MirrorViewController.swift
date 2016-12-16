@@ -93,5 +93,7 @@ class MirrorViewController: UIViewController {
     override var prefersStatusBarHidden : Bool {
         return true
     }
+    
+    @IBAction func exitAboutViewController(_ segue:UIStoryboardSegue) {}
 
 }
