@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Mirror" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CwI-Fg-XEM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RiD-hY-k3i">
+                                <rect key="frame" x="553" y="557" width="35" height="35"/>
+                                <state key="normal" image="Flip Button (Mirrored)"/>
+                                <state key="selected" image="Flip Button (De-Mirrored)"/>
+                                <connections>
+                                    <action selector="flipOrientation:" destination="BYZ-38-t0r" eventType="touchUpInside" id="d40-sH-e6G"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="RiD-hY-k3i" secondAttribute="bottom" constant="8" id="1R0-gK-Qnr"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RiD-hY-k3i" secondAttribute="trailing" constant="-8" id="xs7-B3-XR0"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="flipButton" destination="RiD-hY-k3i" id="PS0-Qf-AI7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="755" y="534"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Flip Button (De-Mirrored)" width="35" height="35"/>
+        <image name="Flip Button (Mirrored)" width="35" height="35"/>
+    </resources>
+</document>

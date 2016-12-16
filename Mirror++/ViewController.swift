@@ -53,7 +53,6 @@ class ViewController: UIViewController {
                 if(device.position == AVCaptureDevicePosition.Front) {
                     captureDevice = device as? AVCaptureDevice
                     if captureDevice != nil {
-                        print("Capture device found!")
                         beginSession()
                     }
                 }

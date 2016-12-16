@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D8B68A161C2F640100B5FB24"
-               BuildableName = "Mirror++.app"
+               BuildableName = "Mirror.app"
                BlueprintName = "Mirror++"
                ReferencedContainer = "container:Mirror++.xcodeproj">
             </BuildableReference>
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8B68A161C2F640100B5FB24"
-            BuildableName = "Mirror++.app"
+            BuildableName = "Mirror.app"
             BlueprintName = "Mirror++"
             ReferencedContainer = "container:Mirror++.xcodeproj">
          </BuildableReference>
@@ -76,7 +76,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8B68A161C2F640100B5FB24"
-            BuildableName = "Mirror++.app"
+            BuildableName = "Mirror.app"
             BlueprintName = "Mirror++"
             ReferencedContainer = "container:Mirror++.xcodeproj">
          </BuildableReference>
@@ -95,7 +95,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D8B68A161C2F640100B5FB24"
-            BuildableName = "Mirror++.app"
+            BuildableName = "Mirror.app"
             BlueprintName = "Mirror++"
             ReferencedContainer = "container:Mirror++.xcodeproj">
          </BuildableReference>
